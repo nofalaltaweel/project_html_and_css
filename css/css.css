@@ -1,0 +1,259 @@
+
+body {
+    direction: rtl;
+
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fef2f2;
+
+    color: #333435;
+
+    margin: 20px;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    border-radius: 50%;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+
+    margin: 5px 10px;
+    padding: 10px 20px;
+
+    background-color: rgb(76, 160, 216);
+
+    border-radius: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+nav ul li:hover {
+    background-color: rgb(5, 97, 133);
+}
+.drop ul {
+    display: inline;
+    padding: 0;
+}
+
+.drop ul li {
+    position: relative;
+
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: steelblue;
+}
+
+.drop ul li ul {
+    position: absolute;
+    right: 0%;
+    top: 100%;
+    width: 250px;
+    box-shadow: gray 5px 5px 10px;
+    display: none;
+}
+
+.drop ul li:hover ul {
+    display: block;
+}
+
+.drop ul li ul li {
+    background: #555;
+    display: block;
+}
+
+section {
+    background-color: #ffffff;
+
+    margin: 20px 0;
+    padding: 20px;
+
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: rgb(47, 124, 175);
+    border-bottom: 2px solid rgb(207, 198, 118);
+
+    padding-bottom: 5px;
+}
+
+
+#hardware div {
+    display: inline-block;
+    width: 22%;
+
+
+    vertical-align: top;
+    text-align: center;
+    margin: 1%;
+    
+    padding: 10px;
+    background-color: #f9f9f9;
+
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+#hardware img {
+
+    width: 100px;
+
+    height: 100px;
+
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background-color: rgb(207, 198, 118);
+    color: #333;
+}
+
+td, th {
+    border: 1px solid #ccc;
+
+    padding: 12px;
+    text-align: center;
+
+    vertical-align: middle;
+}
+
+tbody tr:hover {
+    background-color: beige;
+    cursor: pointer;
+}
+
+fieldset {
+
+    border: 2px solid rgb(76, 160, 216);
+    
+    border-radius: 10px;
+
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+legend {
+    font-weight: bold;
+
+    color: rgb(47, 124, 175);
+
+    padding: 0 10px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form input[type="text"],
+
+form input[type="number"],
+
+form select,
+form textarea {
+    width: 100%;
+
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid rgb(12, 122, 71);
+
+    border-radius: 5px;
+
+    margin-top: 5px;
+}
+
+form input:focus {
+    width: 350px;
+    outline: none;
+    border-color: rgb(47, 124, 175);
+}
+
+input:read-only {
+    background-color: rgb(183, 183, 49);
+}
+
+input[type="submit"],
+input[type="reset"],
+button {
+    background-color: rgb(76, 160, 216);
+    color: white;
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+    
+    font-weight: bold;
+
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(5, 97, 133);
+}
+
+.box1 {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+
+    line-height: 50px;
+    margin-bottom: 20px;
+
+    border-radius: 5px;
+    background-color: rgb(93, 195, 161);
+
+    color: white;
+
+    transition: all 2s ease 1s;
+}
+
+.box1:hover {
+    background-color: green;
+
+    width: 50%;
+    height: 100px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+
+    background-color: #ffffff;
+
+
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #666;
+}
